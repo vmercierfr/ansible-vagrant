@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+    - name: "Execute install on all hosts"
+      debug: msg="Execute install on {{ groups }}"

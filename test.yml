@@ -1,0 +1,7 @@
+---
+
+- hosts: client
+  tasks:
+    - name: "Execute test on 'client' hosts"
+      debug: msg="Execute test"
+
